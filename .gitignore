@@ -1,0 +1,9 @@
+# Ignore everything in AWS Resource list folder
+AWS Resource list/*
+
+# Allow only shell script files (.sh)
+!AWS Resource list/*.sh
+
+# Explicitly ignore .png files
+AWS Resource list/*.png
+
